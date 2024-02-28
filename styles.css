@@ -1,0 +1,77 @@
+.gradient-background {
+    background: linear-gradient(300deg, #333532, #b2b6b5, #242121);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+
+    
+.ok h1{
+    font-family: "Sacramento", cursive;
+    color: #fff
+}
+
+#title a:link{
+    color: #fff;
+    font-size: 1.4rem;
+}
+#title a:visited{
+    color: #fff;
+}
+.img{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.p{
+    text-align: justify;
+}
+
+.gradient-background>h1{
+    font-family: "Sacramento", cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    padding: 3rem 0 2rem 0;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: aliceblue;
+}
+.work-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+}
+.work h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contact{
+    font-family: "Sacramento", cursive;
+}
+
+@media (max-width: 1200px){
+    .work{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+}
